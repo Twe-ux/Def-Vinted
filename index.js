@@ -31,10 +31,10 @@ const v2Routes = require("./routes/v2/index");
 app.use("/v2", v2Routes);
 
 app.get("/", (req, res) => {
-  res.json("Bienvenue sur l'API de Vinted");
+  res.json("🔥 Bienvenue sur l'API de Vinted 🔥");
 });
 
 const server = app.listen(process.env.PORT || 4000, () => {
-  console.log("Server started");
+  console.log("🔥🔥🔥 Server started 🔥🔥🔥");
 });
 server.timeout = Number(process.env.SERVER_TIMEOUT) || 1000000;
